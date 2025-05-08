@@ -1,0 +1,10 @@
+{
+  "Name": "Odd Quality of Life",
+  "Author": "Lt_oddy",
+  "Version": "1.0.0",
+  "Description": "A configurable way to adjust many small things about an amazing game",
+  "UniqueID": "Lt_oddy.Odd_Quality_of_Life",
+  "EntryDll": "Odd Quality of Life.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
