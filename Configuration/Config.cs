@@ -30,10 +30,12 @@ namespace Odd_Quality_of_Life.Configuration
         public bool Passable_weeds { get; set; } = true;
         public bool Passable_forage { get; set; } = true;
         public bool Slowdown_when_passing { get; set; } = true;
+        public float Slowdown_when_passing_amount { get; set; } = -1f;
+        public float Slowdown_when_passing_book_amount { get; set; } = -0.33f;
         public bool Shake_when_passing { get; set; } = true;
 
         /// Fishing Module 
-        public bool Unlimited_legendary_fish { get; set; } = true;
+        public int Slightly_Limited_legendary_fish { get; set; } = 1;
         public bool Fishing_hook_assist { get; set; } = false;
         public bool Fishing_max_cast_assist { get; set; } = false;
 

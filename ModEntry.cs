@@ -312,6 +312,22 @@ namespace Odd_Quality_of_Life
                 getValue: () => Config.Slowdown_when_passing,
                 setValue: value => Config.Slowdown_when_passing = value
             );
+            configMenu.AddNumberOption
+            (
+                mod: ModManifest,
+                name: () => "Slowdown Effect Amount",
+                tooltip: () => "How much to slow down character movement when walking through objects (Requires slowdown effect to be enabled)",
+                getValue: () => Config.Slowdown_when_passing_amount,
+                setValue: value => Config.Slowdown_when_passing_amount = value
+            );
+            configMenu.AddNumberOption
+            (
+                mod: ModManifest,
+                name: () => "Slowdown Effect Amount with Ol' Slitherlegs book",
+                tooltip: () => "How much to slow down character movement when walking through objects while having the Ol' Slitherlegs book (Requires slowdown effect to be enabled)",
+                getValue: () => Config.Slowdown_when_passing_book_amount,
+                setValue: value => Config.Slowdown_when_passing_book_amount = value
+            );
             configMenu.AddBoolOption
             (
                 mod: ModManifest,
@@ -434,13 +450,13 @@ namespace Odd_Quality_of_Life
                 mod: ModManifest,
                 text: () => "Config options pertaining to Fishing"
             );
-            configMenu.AddBoolOption
+            configMenu.AddNumberOption
             (
                 mod: ModManifest,
-                name: () => "Unlimited Legendary Fish",
-                tooltip: () => "Makes Legendary fish able to be caught an unlimited number of times",
-                getValue: () => Config.Unlimited_legendary_fish,
-                setValue: value => Config.Unlimited_legendary_fish = value
+                name: () => "Slightly Limited Legendary Fish",
+                tooltip: () => "Makes Legendary fish able to be caught more times (-1 makes legendary fish unlimited!)",
+                getValue: () => Config.Slightly_Limited_legendary_fish,
+                setValue: value => Config.Slightly_Limited_legendary_fish = value
             );
             configMenu.AddBoolOption
             (

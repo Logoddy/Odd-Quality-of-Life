@@ -15,7 +15,7 @@ namespace Odd_Quality_of_Life.Patches
         /// Unlimited Legendary Fish
         public static void Unlimited_Legendary_Fish(object sender, AssetRequestedEventArgs e)
         {
-            if (ModEntry.Config.Unlimited_legendary_fish && e.Name.IsEquivalentTo("Data/Locations"))
+            if (ModEntry.Config.Slightly_Limited_legendary_fish != 1 && e.Name.IsEquivalentTo("Data/Locations"))
             {
                 e.Edit
                 (
@@ -32,7 +32,7 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (fish.CatchLimit == 1 && ItemContextTagManager.HasBaseTag(fish.ItemId, "fish_legendary"))
                                 {
-                                    fish.CatchLimit = -1;
+                                    fish.CatchLimit = ModEntry.Config.Slightly_Limited_legendary_fish;
                                 }
                             }
                         }

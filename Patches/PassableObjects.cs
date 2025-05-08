@@ -10,7 +10,6 @@ using Netcode;
 using Microsoft.Xna.Framework.Graphics;
 using System.Data;
 using System.Xml.Linq;
-using StardewValley.Monsters;
 
 namespace Odd_Quality_of_Life.Patches
 {
@@ -357,11 +356,11 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (Game1.player.stats.Get("Book_Grass") == 0)
                                 {
-                                    Game1.player.temporarySpeedBuff = -1f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                                 }
                                 else
                                 {
-                                    Game1.player.temporarySpeedBuff = -0.33f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                                 }
                             }
                             if (Last_shake_data.Character is not null && (!__instance!.modData.TryGetValue(KeyDataShake, out var data) || !float.TryParse((data = "").Split(';')[0], out var maxShake) || maxShake <= 0f))
@@ -407,11 +406,11 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (Game1.player.stats.Get("Book_Grass") == 0)
                                 {
-                                    Game1.player.temporarySpeedBuff = -1f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                                 }
                                 else
                                 {
-                                    Game1.player.temporarySpeedBuff = -0.33f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                                 }
                             }
                             if (Last_shake_data.Character is not null && (!__instance!.modData.TryGetValue(KeyDataShake, out var data) || !float.TryParse((data = "").Split(';')[0], out var maxShake) || maxShake <= 0f))
@@ -508,11 +507,11 @@ namespace Odd_Quality_of_Life.Patches
                         {
                             if (farmer.stats.Get("Book_Grass") == 0)
                             {
-                                farmer.temporarySpeedBuff = -1f;
+                                farmer.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                             }
                             else
                             {
-                                farmer.temporarySpeedBuff = -0.33f;
+                                farmer.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                             }
                         }
                         if ((ModEntry.Config.Shake_when_passing == true) && c is not null && ___maxShake == 0f)
@@ -575,11 +574,11 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (farmer.stats.Get("Book_Grass") == 0)
                                 {
-                                    farmer.temporarySpeedBuff = -1f;
+                                    farmer.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                                 }
                                 else
                                 {
-                                    farmer.temporarySpeedBuff = -0.33f;
+                                    farmer.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                                 }
                             }
                             if ((ModEntry.Config.Shake_when_passing == true) && c is not null && ___maxShake == 0f && __instance.growthStage.Value > 0)
@@ -639,11 +638,11 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (farmer.stats.Get("Book_Grass") == 0)
                                 {
-                                    farmer.temporarySpeedBuff = -1f;
+                                    farmer.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                                 }
                                 else
                                 {
-                                    farmer.temporarySpeedBuff = -0.33f;
+                                    farmer.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                                 }
                             }
                             if ((ModEntry.Config.Shake_when_passing == true) && c is not null && ___maxShake == 0f)
@@ -706,11 +705,11 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (Game1.player.stats.Get("Book_Grass") == 0)
                                 {
-                                    Game1.player.temporarySpeedBuff = -1f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                                 }
                                 else
                                 {
-                                    Game1.player.temporarySpeedBuff = -0.33f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                                 }
                             }
                             if (Last_shake_data.Character is not null && (!__instance!.modData.TryGetValue(KeyDataShake, out var data) || !float.TryParse((data = "").Split(';')[0], out var maxShake) || maxShake <= 0f))
@@ -756,11 +755,11 @@ namespace Odd_Quality_of_Life.Patches
                             {
                                 if (Game1.player.stats.Get("Book_Grass") == 0)
                                 {
-                                    Game1.player.temporarySpeedBuff = -1f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_amount;
                                 }
                                 else
                                 {
-                                    Game1.player.temporarySpeedBuff = -0.33f;
+                                    Game1.player.temporarySpeedBuff = ModEntry.Config.Slowdown_when_passing_book_amount;
                                 }
                             }
                             if (Last_shake_data.Character is not null && (!__instance!.modData.TryGetValue(KeyDataShake, out var data) || !float.TryParse((data = "").Split(';')[0], out var maxShake) || maxShake <= 0f))
