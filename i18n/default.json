@@ -1,0 +1,390 @@
+{
+  /////////////////////
+  // *********Odd Quality of Life - Translation File***********
+  /////////////////////
+
+  /////////////////////
+  // In-Game Messages
+  /////////////////////
+
+  //AFK
+  "Utility.AFK.Message": "You are now AFK; your game has paused",
+
+  //Festival Notifications
+  "Utility.Festival.HeadsUp": "The {{festivalName}} occurs today. It is located at the {{location}}. The festival starts at {{startTime}} and ends at {{endTime}}",
+  "Utility.Festival.HeadsUpPassive": "The {{festivalName}} occurs today. The festival starts at {{startTime}}",
+  "Utility.Festival.Warning": "The {{festivalName}} is ending soon. It is located at the {{location}}. It ends at {{endTime}}",
+
+  //Ranching Error Messages
+  "Ranching.Error.NoAnimals": "No animals in range for harvesting",
+  "Ranching.Error.InventoryFull": "Inventory is too full",
+  "Ranching.Error.TooYoung": "{{animalName}} is too young to be {{actionPast}}. They will be old enough in {{days}} day(s)",
+  "Ranching.Error.RecentlyHarvested": "{{animalName}} has been {{actionPast}} recently. They can be {{action}} every {{days}} day(s)",
+  "Ranching.Error.WrongAnimal": "{{animalName}} is only a chicken. Please do not {{action}} them!",
+  "Ranching.Error.Unable": "{{animalName}} is unable to be {{actionPast}}",
+
+  //Ranching Action Words
+  "Ranching.Action.Milk.Past": "milked",
+  "Ranching.Action.Milk.Present": "milking",
+  "Ranching.Action.Milk.Base": "milk",
+  "Ranching.Action.Shear.Past": "sheared",
+  "Ranching.Action.Shear.Present": "shearing",
+  "Ranching.Action.Shear.Base": "shear",
+
+  /////////////////////
+  // GMCM - Main Page
+  /////////////////////
+
+  "Config.Main.Title": "Odd Quality of Life!",
+  "Config.Main.Description": "Welcome to the Odd Quality of Life config page! Please enable, disable or modify the below configs for the modules this mod provides.",
+  "Config.Main.Link.Friendship": "Friendship Decay Module",
+  "Config.Main.Link.Fence": "Fence Decay Module",
+  "Config.Main.Link.Home": "Home Life Module",
+  "Config.Main.Link.Passable": "Passable Objects Module",
+  "Config.Main.Link.Fishing": "Fishing Module",
+  "Config.Main.Link.Ranching": "Ranching Module",
+  "Config.Main.Link.Shopping": "Shopping Module",
+  "Config.Main.Link.Utility": "Utility Module",
+
+  /////////////////////
+  // GMCM - Friendship Decay
+  /////////////////////
+
+  "Config.Friendship.PageTitle": "Friendship Decay",
+  "Config.Friendship.SectionTitle": "Friendship Decay Module",
+  "Config.Friendship.Description": "Config options pertaining to preventing friendship decay for villagers or farm animals",
+  "Config.Friendship.SpouseDecay.name": "Spouse Decay",
+  "Config.Friendship.SpouseDecay.description": "Prevent spouse friendship decay",
+  "Config.Friendship.DatingDecay.name": "Dating Decay",
+  "Config.Friendship.DatingDecay.description": "Prevent dating partner friendship decay",
+  "Config.Friendship.OtherDecay.name": "Other Decay",
+  "Config.Friendship.OtherDecay.description": "Prevent all other friendship decay",
+  "Config.Friendship.AnimalDecay.name": "Animal Decay",
+  "Config.Friendship.AnimalDecay.description": "Prevent farm animal friendship decay",
+  "Config.Friendship.PetBowl.name": "Autofill Pet Bowls",
+  "Config.Friendship.PetBowl.description": "Automatically fill your pets bowl daily",
+  "Config.Friendship.Debug.name": "Debugging Mode",
+  "Config.Friendship.Debug.description": "Enable Debugging for Friendship",
+
+  /////////////////////
+  // GMCM - Fence Decay
+  /////////////////////
+
+  "Config.Fence.PageTitle": "Fence Decay",
+  "Config.Fence.SectionTitle": "Fence Decay Module",
+  "Config.Fence.Description": "Config options pertaining to modifying decay over time for fences",
+  "Config.Fence.Decay.name": "Fence Decay",
+  "Config.Fence.Decay.description": "Enable fences decay modifications",
+  "Config.Fence.Speed.name": "Fence Decay Speed",
+  "Config.Fence.Speed.description": "Adjust the percentage speed in which fences decay compared to vanilla. (0 = no decay, 100 = vanilla, 200 = twice the decay speed)",
+  "Config.Fence.Debug.name": "Enable Debugging",
+  "Config.Fence.Debug.description": "Enable Debugging for Fence Decay",
+
+  /////////////////////
+  // GMCM - Passable Objects
+  /////////////////////
+
+  "Config.Passable.PageTitle": "Passable Objects",
+  "Config.Passable.SectionTitle": "Passable Objects Module",
+  "Config.Passable.Description": "Config options pertaining to modifying the ability to pass by certain objects",
+  "Config.Passable.Sprinklers.name": "Passable Sprinklers",
+  "Config.Passable.Sprinklers.description": "Enable the ability to walk through/past sprinklers",
+  "Config.Passable.Scarecrows.name": "Passable Scarecrows",
+  "Config.Passable.Scarecrows.description": "Enable the ability to walk through/past scarecrows",
+  "Config.Passable.Saplings.name": "Passable Tree Saplings",
+  "Config.Passable.Saplings.description": "Enable the ability to walk through/past tree saplings",
+  "Config.Passable.Crops.name": "Passable Crops",
+  "Config.Passable.Crops.description": "Enable the ability to walk through/past crops",
+  "Config.Passable.Bushes.name": "Passable Bushes",
+  "Config.Passable.Bushes.description": "Enable the ability to walk through/past bushes",
+  "Config.Passable.Weeds.name": "Passable Weeds",
+  "Config.Passable.Weeds.description": "Enable the ability to walk through/past weeds",
+  "Config.Passable.Forage.name": "Passable Forage",
+  "Config.Passable.Forage.description": "Enable the ability to walk through/past forage",
+  "Config.Passable.Slowdown.name": "Slowdown Effect",
+  "Config.Passable.Slowdown.description": "Enable a character movement slowdown effect when walking through objects",
+  "Config.Passable.SlowdownAmount.name": "Slowdown Effect Amount",
+  "Config.Passable.SlowdownAmount.description": "How much to slow down character movement when walking through objects (Requires slowdown effect to be enabled)",
+  "Config.Passable.SlowdownBook.name": "Slowdown Effect Amount with Ol' Slitherlegs book",
+  "Config.Passable.SlowdownBook.description": "How much to slow down character movement when walking through objects while having the Ol' Slitherlegs book (Requires slowdown effect to be enabled)",
+  "Config.Passable.Shake.name": "Shaking Effect",
+  "Config.Passable.Shake.description": "Enable a shaking effect on the sprite when walking through objects",
+
+  /////////////////////
+  // GMCM - Home Life
+  /////////////////////
+
+  "Config.Home.PageTitle": "Home Life",
+  "Config.Home.SectionTitle": "Home Life Module",
+  "Config.Home.Description": "Config options pertaining to home life",
+  "Config.Home.Fireplace.name": "Automatic Fireplaces",
+  "Config.Home.Fireplace.description": "Automatically turns fireplaces on at certain times",
+  "Config.Home.FireplaceDouse.name": "Automatic Fireplace Dousing",
+  "Config.Home.FireplaceDouse.description": "Automatically turns fireplaces off in the morning",
+  "Config.Home.FireplaceSpring.name": "Auto Fireplace Time (Spring)",
+  "Config.Home.FireplaceSpring.description": "Sets the time in which fireplaces will automatically turn on during spring",
+  "Config.Home.FireplaceSpringRain.name": "Auto Fireplace Time (Spring/Rain)",
+  "Config.Home.FireplaceSpringRain.description": "Sets the time in which fireplaces will automatically turn on during spring while raining",
+  "Config.Home.FireplaceSummer.name": "Auto Fireplace Time (Summer)",
+  "Config.Home.FireplaceSummer.description": "Sets the time in which fireplaces will automatically turn on during summer",
+  "Config.Home.FireplaceSummerRain.name": "Auto Fireplace Time (Summer/Rain)",
+  "Config.Home.FireplaceSummerRain.description": "Sets the time in which fireplaces will automatically turn on during summer while raining",
+  "Config.Home.FireplaceFall.name": "Auto Fireplace Time (Fall)",
+  "Config.Home.FireplaceFall.description": "Sets the time in which fireplaces will automatically turn on during fall",
+  "Config.Home.FireplaceFallRain.name": "Auto Fireplace Time (Fall/Rain)",
+  "Config.Home.FireplaceFallRain.description": "Sets the time in which fireplaces will automatically turn on during fall while raining",
+  "Config.Home.FireplaceWinter.name": "Auto Fireplace Time (Winter)",
+  "Config.Home.FireplaceWinter.description": "Sets the time in which fireplaces will automatically turn on during winter",
+  "Config.Home.FireplaceWinterSnow.name": "Auto Fireplace Time (Winter/Snow)",
+  "Config.Home.FireplaceWinterSnow.description": "Sets the time in which fireplaces will automatically turn on during winter while snowing",
+
+  /////////////////////
+  // GMCM - Fishing
+  /////////////////////
+
+  "Config.Fishing.PageTitle": "Fishing",
+  "Config.Fishing.SectionTitle": "Fishing Module",
+  "Config.Fishing.Description": "Config options pertaining to Fishing",
+  "Config.Fishing.Legendary.name": "Slightly Limited Legendary Fish",
+  "Config.Fishing.Legendary.description": "Makes Legendary fish able to be caught more times (-1 makes legendary fish unlimited!)",
+  "Config.Fishing.AutoHook.name": "Fishing Auto Hook",
+  "Config.Fishing.AutoHook.description": "Makes Fishing rods instantly hook fish",
+  "Config.Fishing.MaxCast.name": "Max Cast Fishing",
+  "Config.Fishing.MaxCast.description": "Makes Fishing rods always cast at max strength",
+
+  /////////////////////
+  // GMCM - Ranching
+  /////////////////////
+
+  "Config.Ranching.PageTitle": "Ranching",
+  "Config.Ranching.SectionTitle": "Ranching Module",
+  "Config.Ranching.Description": "Config options pertaining to Ranching",
+  "Config.Ranching.PreventFailed.name": "Prevent Failed Milking/Sheering",
+  "Config.Ranching.PreventFailed.description": "Prevent the use of the milk bucket or sheers when they can't be used",
+
+  /////////////////////
+  // GMCM - Ranching - Animal Doors
+  /////////////////////
+
+  //Animal Doors - Main Page
+  "Config.Ranching.AnimalDoors.Link": "Animal Doors Settings",
+  "Config.Ranching.AnimalDoors.PageTitle": "Animal Doors",
+  "Config.Ranching.AnimalDoors.SectionTitle": "Auto Animal Doors",
+  "Config.Ranching.AnimalDoors.Description": "Config options for automatically opening and closing animal building doors based on time of day, season, and weather. Animals will be safely warped home before doors close.",
+
+  //Animal Doors - General
+  "Config.Ranching.AnimalDoors.AutoOpen.name": "Auto Open Doors",
+  "Config.Ranching.AnimalDoors.AutoOpen.description": "Automatically open animal building doors at the configured time each day",
+  "Config.Ranching.AnimalDoors.AutoClose.name": "Auto Close Doors",
+  "Config.Ranching.AnimalDoors.AutoClose.description": "Automatically close animal building doors at the configured time each day. Animals outside will be safely warped home before closing",
+  "Config.Ranching.AnimalDoors.Sound.name": "Door Sounds",
+  "Config.Ranching.AnimalDoors.Sound.description": "Play a sound when animal doors are automatically opened or closed. Only audible when the player is on the farm",
+
+  //Animal Doors - Building Requirements
+  "Config.Ranching.AnimalDoors.BuildingsSection": "Building Requirements",
+  "Config.Ranching.AnimalDoors.CoopLevel.name": "Coop Minimum Upgrade Level",
+  "Config.Ranching.AnimalDoors.CoopLevel.description": "Minimum upgrade level for coops to use auto doors (1 = Coop, 2 = Big Coop, 3 = Deluxe Coop)",
+  "Config.Ranching.AnimalDoors.BarnLevel.name": "Barn Minimum Upgrade Level",
+  "Config.Ranching.AnimalDoors.BarnLevel.description": "Minimum upgrade level for barns to use auto doors (1 = Barn, 2 = Big Barn, 3 = Deluxe Barn)",
+  "Config.Ranching.AnimalDoors.SVEPremiumBarn.name": "SVE Premium Barn Auto Doors",
+  "Config.Ranching.AnimalDoors.SVEPremiumBarn.description": "Enable auto doors on the Stardew Valley Expanded Premium Barn",
+  "Config.Ranching.AnimalDoors.SVEPremiumCoop.name": "SVE Premium Coop Auto Doors",
+  "Config.Ranching.AnimalDoors.SVEPremiumCoop.description": "Enable auto doors on the Stardew Valley Expanded Premium Coop",
+  "Config.Ranching.AnimalDoors.OtherBuildings.name": "Other Animal Buildings",
+  "Config.Ranching.AnimalDoors.OtherBuildings.description": "Enable auto doors on modded animal buildings not specifically listed above",
+
+  //Animal Doors - Seasonal Timing
+  "Config.Ranching.AnimalDoors.SeasonalSection": "Seasonal Timing",
+  "Config.Ranching.AnimalDoors.SpringOpen.name": "Spring Open Time",
+  "Config.Ranching.AnimalDoors.SpringOpen.description": "Time to open animal doors during spring (e.g. 730 = 7:30 AM)",
+  "Config.Ranching.AnimalDoors.SpringClose.name": "Spring Close Time",
+  "Config.Ranching.AnimalDoors.SpringClose.description": "Time to close animal doors during spring (e.g. 1800 = 6:00 PM)",
+  "Config.Ranching.AnimalDoors.SummerOpen.name": "Summer Open Time",
+  "Config.Ranching.AnimalDoors.SummerOpen.description": "Time to open animal doors during summer (e.g. 630 = 6:30 AM)",
+  "Config.Ranching.AnimalDoors.SummerClose.name": "Summer Close Time",
+  "Config.Ranching.AnimalDoors.SummerClose.description": "Time to close animal doors during summer (e.g. 1900 = 7:00 PM)",
+  "Config.Ranching.AnimalDoors.FallOpen.name": "Fall Open Time",
+  "Config.Ranching.AnimalDoors.FallOpen.description": "Time to open animal doors during fall (e.g. 730 = 7:30 AM)",
+  "Config.Ranching.AnimalDoors.FallClose.name": "Fall Close Time",
+  "Config.Ranching.AnimalDoors.FallClose.description": "Time to close animal doors during fall (e.g. 1800 = 6:00 PM)",
+  "Config.Ranching.AnimalDoors.WinterOpen.name": "Winter Open Time",
+  "Config.Ranching.AnimalDoors.WinterOpen.description": "Time to open animal doors during winter (e.g. 800 = 8:00 AM)",
+  "Config.Ranching.AnimalDoors.WinterClose.name": "Winter Close Time",
+  "Config.Ranching.AnimalDoors.WinterClose.description": "Time to close animal doors during winter (e.g. 1700 = 5:00 PM)",
+
+  //Animal Doors - Weather Overrides
+  "Config.Ranching.AnimalDoors.WeatherLink": "Weather Override Settings",
+  "Config.Ranching.AnimalDoors.WeatherPageTitle": "Animal Doors - Weather",
+  "Config.Ranching.AnimalDoors.WeatherSectionTitle": "Weather Overrides",
+  "Config.Ranching.AnimalDoors.WeatherDescription": "Override animal door behavior based on weather. Block prevents doors from opening. Custom uses the times below instead of seasonal times. Default uses the seasonal times as normal.",
+  "Config.Ranching.AnimalDoors.WeatherTimeTooltip.description": "Only used when the weather mode is set to Custom",
+  "Config.Ranching.AnimalDoors.RainMode.name": "Rain Behavior",
+  "Config.Ranching.AnimalDoors.RainMode.description": "How animal doors behave during rain (Block = stay closed, Custom = use rain-specific times, Default = use seasonal times)",
+  "Config.Ranching.AnimalDoors.RainOpen.name": "Rain Open Time",
+  "Config.Ranching.AnimalDoors.RainClose.name": "Rain Close Time",
+  "Config.Ranching.AnimalDoors.StormMode.name": "Storm Behavior",
+  "Config.Ranching.AnimalDoors.StormMode.description": "How animal doors behave during thunderstorms (Block = stay closed, Custom = use storm-specific times, Default = use seasonal times)",
+  "Config.Ranching.AnimalDoors.StormOpen.name": "Storm Open Time",
+  "Config.Ranching.AnimalDoors.StormClose.name": "Storm Close Time",
+  "Config.Ranching.AnimalDoors.SnowMode.name": "Snow Behavior",
+  "Config.Ranching.AnimalDoors.SnowMode.description": "How animal doors behave during snow (Block = stay closed, Custom = use snow-specific times, Default = use seasonal times)",
+  "Config.Ranching.AnimalDoors.SnowOpen.name": "Snow Open Time",
+  "Config.Ranching.AnimalDoors.SnowClose.name": "Snow Close Time",
+  "Config.Ranching.AnimalDoors.WindMode.name": "Wind Behavior",
+  "Config.Ranching.AnimalDoors.WindMode.description": "How animal doors behave during windy/debris weather (Block = stay closed, Custom = use wind-specific times, Default = use seasonal times)",
+  "Config.Ranching.AnimalDoors.WindOpen.name": "Wind Open Time",
+  "Config.Ranching.AnimalDoors.WindClose.name": "Wind Close Time",
+  "Config.Ranching.AnimalDoors.GreenRainMode.name": "Green Rain Behavior",
+  "Config.Ranching.AnimalDoors.GreenRainMode.description": "How animal doors behave during green rain (Block = stay closed, Custom = use green rain-specific times, Default = use seasonal times)",
+  "Config.Ranching.AnimalDoors.GreenRainOpen.name": "Green Rain Open Time",
+  "Config.Ranching.AnimalDoors.GreenRainClose.name": "Green Rain Close Time",
+
+  //Animal Doors - Modded Weather
+  "Config.Ranching.AnimalDoors.ModdedWeatherSection": "Modded Weather",
+  "Config.Ranching.AnimalDoors.BlockedWeatherIds.name": "Blocked Weather IDs",
+  "Config.Ranching.AnimalDoors.BlockedWeatherIds.description": "Comma-separated list of modded weather IDs that should prevent animal doors from opening (e.g. Sandstorm,Blizzard)",
+
+  /////////////////////
+  // GMCM - Shopping (Main)
+  /////////////////////
+
+  "Config.Shopping.PageTitle": "Shopping",
+  "Config.Shopping.SectionTitle": "Shopping Module",
+  "Config.Shopping.Description": "Config options pertaining to Shopping. All shopping edits will require a restart to fully take effect.",
+  "Config.Shopping.Link.Pierre": "Seed Shop (Pierre)",
+  "Config.Shopping.Link.Willy": "Fish Shop (Willy)",
+  "Config.Shopping.Link.Robin": "Carpenter Shop (Robin)",
+  "Config.Shopping.Link.Clint": "Blacksmith Shop (Clint)",
+  "Config.Shopping.Link.Marnie": "Animal Shop (Marnie)",
+
+  //Shopping - Pierre
+  "Config.Shopping.Pierre.PageTitle": "Seed Shop (Pierre)",
+  "Config.Shopping.Pierre.SectionTitle": "Shopping Module - Seed Shop (Pierre)",
+  "Config.Shopping.Pierre.Description": "Config options pertaining to Shopping at Pierre's",
+  "Config.Shopping.Pierre.Strawberry.name": "Pierre Sells Strawberry Seeds",
+  "Config.Shopping.Pierre.Strawberry.description": "Allows the purchase of strawberry seeds from Pierre",
+  "Config.Shopping.Pierre.StrawberryUnlock.name": "Pierre Sells Strawberry Seeds Unlock Condition",
+  "Config.Shopping.Pierre.StrawberryPrice.name": "Pierre Sells Strawberry Seeds Price",
+  "Config.Shopping.Pierre.StrawberryPrice.description": "Sets the base price to purchase strawberry seeds from Pierre",
+  "Config.Shopping.Pierre.Tea.name": "Pierre Sells Tea Saplings",
+  "Config.Shopping.Pierre.Tea.description": "Allows the purchase of tea saplings from Pierre",
+  "Config.Shopping.Pierre.TeaUnlock.name": "Pierre Sells Tea Saplings Unlock Condition",
+  "Config.Shopping.Pierre.TeaPrice.name": "Pierre Sells Tea Saplings Price",
+  "Config.Shopping.Pierre.TeaPrice.description": "Sets the base price to purchase tea saplings from Pierre",
+
+  //Shopping - Willy
+  "Config.Shopping.Willy.PageTitle": "Fish Shop (Willy)",
+  "Config.Shopping.Willy.SectionTitle": "Shopping Module - Fish Shop (Willy)",
+  "Config.Shopping.Willy.Description": "Config options pertaining to Shopping at Willy's",
+  "Config.Shopping.Willy.BuysRods.name": "Willy Buys Fishing Rods",
+  "Config.Shopping.Willy.BuysRods.description": "Allows Willy to buy back any old fishing rods",
+
+  //Shopping - Robin
+  "Config.Shopping.Robin.PageTitle": "Carpenter Shop (Robin)",
+  "Config.Shopping.Robin.SectionTitle": "Shopping Module - Carpenter Shop (Robin)",
+  "Config.Shopping.Robin.Description": "Config options pertaining to Shopping at Robin's",
+  "Config.Shopping.Robin.Clay.name": "Robin Sells Clay",
+  "Config.Shopping.Robin.Clay.description": "Allows the purchase of clay from Robin",
+  "Config.Shopping.Robin.ClayPrice.name": "Robin Sells Clay Price",
+  "Config.Shopping.Robin.ClayPrice.description": "Sets the base price to purchase clay from Robin",
+  "Config.Shopping.Robin.Hardwood.name": "Robin Sells Hardwood",
+  "Config.Shopping.Robin.Hardwood.description": "Allows the purchase of hardwood from Robin",
+  "Config.Shopping.Robin.HardwoodUnlock.name": "Robin Sells Hardwood Unlock Condition",
+  "Config.Shopping.Robin.HardwoodPrice.name": "Robin Sells Hardwood Price",
+  "Config.Shopping.Robin.HardwoodPrice.description": "Sets the base price to purchase hardwood from Robin",
+  "Config.Shopping.Robin.Battery.name": "Robin Sells Battery Packs",
+  "Config.Shopping.Robin.Battery.description": "Allows the purchase of battery packs from Robin",
+  "Config.Shopping.Robin.BatteryUnlock.name": "Robin Sells Battery Packs Unlock Condition",
+  "Config.Shopping.Robin.BatteryPrice.name": "Robin Sells Battery Packs Price",
+  "Config.Shopping.Robin.BatteryPrice.description": "Sets the base price to purchase battery packs from Robin",
+
+  //Shopping - Clint
+  "Config.Shopping.Clint.PageTitle": "Blacksmith Shop (Clint)",
+  "Config.Shopping.Clint.SectionTitle": "Shopping Module - Blacksmith Shop (Clint)",
+  "Config.Shopping.Clint.Description": "Config options pertaining to Shopping at Clint's",
+  "Config.Shopping.Clint.Iridium.name": "Clint Sells Iridium Ore",
+  "Config.Shopping.Clint.Iridium.description": "Allows the purchase of iridium ore from Clint",
+  "Config.Shopping.Clint.IridiumUnlock.name": "Clint Sells Iridium Ore Unlock Condition",
+  "Config.Shopping.Clint.IridiumPrice.name": "Clint Sells Iridium Ore Price",
+  "Config.Shopping.Clint.IridiumPrice.description": "Sets the base price to purchase iridium ore from Clint",
+  "Config.Shopping.Clint.Radioactive.name": "Clint Sells Radioactive Ore",
+  "Config.Shopping.Clint.Radioactive.description": "Allows the purchase of radioactive ore from Clint",
+  "Config.Shopping.Clint.RadioactiveUnlock.name": "Clint Sells Radioactive Ore Unlock Condition",
+  "Config.Shopping.Clint.RadioactivePrice.name": "Clint Sells Radioactive Ore Price",
+  "Config.Shopping.Clint.RadioactivePrice.description": "Sets the base price to purchase radioactive ore from Clint",
+  "Config.Shopping.Clint.SpareTools.name": "Clint Sells Spare Tools",
+  "Config.Shopping.Clint.SpareTools.description": "Allows the purchase of spare tools from Clint",
+  "Config.Shopping.Clint.SpareToolsPrice.name": "Clint Sells Spare Tools Price",
+  "Config.Shopping.Clint.SpareToolsPrice.description": "Sets the base price to purchase spare tools from Clint",
+
+  //Shopping - Marnie
+  "Config.Shopping.Marnie.PageTitle": "Animal Shop (Marnie)",
+  "Config.Shopping.Marnie.SectionTitle": "Shopping Module - Animal Shop (Marnie)",
+  "Config.Shopping.Marnie.Description": "Config options pertaining to Shopping at Marnie's",
+  "Config.Shopping.Marnie.Fiber.name": "Marnie Sells Fiber",
+  "Config.Shopping.Marnie.Fiber.description": "Allows the purchase of fiber from Marnie",
+  "Config.Shopping.Marnie.FiberPrice.name": "Marnie Sells Fiber Price",
+  "Config.Shopping.Marnie.FiberPrice.description": "Sets the base price to purchase fiber from Marnie",
+
+  /////////////////////
+  // GMCM - Utility
+  /////////////////////
+
+  "Config.Utility.PageTitle": "Utility",
+  "Config.Utility.SectionTitle": "Utility Module",
+  "Config.Utility.Description": "Config options pertaining to general Utilities",
+  "Config.Utility.AFK.name": "AFK Protection",
+  "Config.Utility.AFK.description": "Enable the game to automatically freeze time when no actions are detected for a specific amount of time",
+  "Config.Utility.AFKTimer.name": "AFK Timer",
+  "Config.Utility.AFKTimer.description": "How many ticks of inactivity before AFK mode activates (60 ticks = ~1 second. Default 2000 = ~33 seconds)",
+  "Config.Utility.AFKNotification.name": "AFK Notification",
+  "Config.Utility.AFKNotification.description": "Display a notification banner stating that you are AFK",
+  "Config.Utility.AFKMouse.name": "AFK Mouse Release",
+  "Config.Utility.AFKMouse.description": "Disable the ability for simple mouse movement to deactivate AFK mode",
+  "Config.Utility.PassoutFarm.name": "Safe Passout on Farm",
+  "Config.Utility.PassoutFarm.description": "Allows farmers to safely passout on the farm without losing gold",
+  "Config.Utility.PassoutEverywhere.name": "Safe Passout Everywhere",
+  "Config.Utility.PassoutEverywhere.description": "Allows farmers to safely passout anywhere without losing gold",
+  "Config.Utility.PassoutPenalty.name": "Safe Passout Penalty",
+  "Config.Utility.PassoutPenalty.description": "Sets the stamina penalty divisor for passing out in a safe area (2 will set your stamina to half its maximum; 0 will give no stamina penalty)",
+  "Config.Utility.AutoBait.name": "Auto Stack Fishing Rod Bait",
+  "Config.Utility.AutoBait.description": "Automatically add matching bait to fishing rods that already contain the same bait",
+  "Config.Utility.AutoAmmo.name": "Auto Stack Slingshot Ammo",
+  "Config.Utility.AutoAmmo.description": "Automatically add matching ammo to slingshots that already contain the same ammo",
+  "Config.Utility.FestivalHeadsUp.name": "Festival Notifications Heads Up",
+  "Config.Utility.FestivalHeadsUp.description": "Sends a heads up notification at the beginning of the festival day",
+  "Config.Utility.FestivalWarning.name": "Festival Notifications Warning",
+  "Config.Utility.FestivalWarning.description": "Sends a warning notification at a determined time prior to the festival ending",
+  "Config.Utility.FestivalWarningTime.name": "Festival Notifications Warning Timing",
+  "Config.Utility.FestivalWarningTime.description": "Sets the amount of hours prior to a festivals end time to send a warning",
+  "Config.Utility.NonDestructiveNPCs.name": "Non-Destructive NPC's",
+  "Config.Utility.NonDestructiveNPCs.description": "Prevents NPC's from walking into and destroying objects placed by the player outside the farm",
+  "Config.Utility.NoLightningSound.name": "No Lightning Strike Sounds",
+  "Config.Utility.NoLightningSound.description": "Prevents lightning strike sounds and visual flash effects from occurring when lightning strikes on the farm. Does not affect ambient thunder sounds during storms",
+  "Config.Utility.NoThunderSound.name": "No Thunder Sounds",
+  "Config.Utility.NoThunderSound.description": "Prevents ambient thunder rumble sounds from playing during thunderstorms. Does not affect lightning strike sounds",
+  "Config.Utility.NonDestructiveLightningTrees.name": "Non-Destructive Lightning (Fruit Trees)",
+  "Config.Utility.NonDestructiveLightningTrees.description": "Prevents Lightning Strikes from burning fruit trees on the farm",
+  "Config.Utility.NonDestructiveLightningObjects.name": "Non-Destructive Lightning (Objects and Crops)",
+  "Config.Utility.NonDestructiveLightningObjects.description": "Prevents Lightning Strikes from destroying crops or objects such as floors on the farm",
+  "Config.Utility.SitRegen.name": "Sit to Regen",
+  "Config.Utility.SitRegen.description": "Enables the ability to regen stamina by sitting and relaxing",
+  "Config.Utility.SitRegenRate.name": "Sit to Regen Rate",
+  "Config.Utility.SitRegenRate.description": "Sets the rate of regen while sitting in ticks per 1 stamina (60 ticks = ~1 second. Default 50 = stamina every ~0.8 seconds)",
+  "Config.Utility.SitRegenMax.name": "Sit to Regen maximum percentage",
+  "Config.Utility.SitRegenMax.description": "Sets the maximum percentage of max stamina that you can regen by sitting",
+  "Config.Utility.AutoGatesOnFoot.name": "Auto Gates On Foot",
+  "Config.Utility.AutoGatesOnFoot.description": "Gates will automatically open when walking on foot",
+  "Config.Utility.AutoGatesOnHorse.name": "Auto Gates On Horse",
+  "Config.Utility.AutoGatesOnHorse.description": "Gates will automatically open when riding a horse",
+  "Config.Utility.AutoGatesFacingOnly.name": "Auto Gates Facing Only",
+  "Config.Utility.AutoGatesFacingOnly.description": "Gates will only open when the player is facing them. When disabled, gates open whenever the player is within range regardless of direction",
+  "Config.Utility.AutoGatesOpenSound.name": "Auto Gates Open Sound",
+  "Config.Utility.AutoGatesOpenSound.description": "Play a sound when a gate is automatically opened",
+  "Config.Utility.AutoGatesAutoClose.name": "Auto Gates Auto Close",
+  "Config.Utility.AutoGatesAutoClose.description": "Gates that were automatically opened will automatically close after a delay. When disabled, automatically opened gates stay open until manually closed",
+  "Config.Utility.AutoGatesCloseSound.name": "Auto Gates Close Sound",
+  "Config.Utility.AutoGatesCloseSound.description": "Play a sound when a gate is automatically closed",
+  "Config.Utility.AutoGatesDelay.name": "Auto Gates Close Delay",
+  "Config.Utility.AutoGatesDelay.description": "Sets the delay in ticks before a gate automatically closes after the player walks away (15 ticks = ~0.25 seconds, 60 ticks = ~1 second)"
+}
